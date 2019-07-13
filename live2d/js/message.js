@@ -34,7 +34,7 @@ $(document).on('copy', function (){
 function initTips(){
     $.ajax({
         cache: true,
-        url: `${message_Path}message.json`,
+        url: message_Path + 'message.json',
         dataType: "json",
         success: function (result){
             $.each(result.mouseover, function (index, tips){
@@ -73,7 +73,7 @@ initTips();
             text = '嗨！ 来自 谷歌搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
         }
     }else {
-        if (window.location.href == `${home_Path}`) { //主页URL判断，需要斜杠结尾
+        if (window.location.href == home_Path) { //主页URL判断，需要斜杠结尾
             var now = (new Date()).getHours();
             if (now > 23 || now <= 5) {
                 text = '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？';
@@ -109,6 +109,12 @@ function showHitokoto(){
     });
 }
 
+function showTuling(message) {
+    $.getJSON('/tuling?commit=' + encodeURIComponent(message), function (result) {
+        showMessage(result.data, 5000);
+    });
+}
+
 function showMessage(text, timeout){
     if(Array.isArray(text)) text = text[Math.floor(Math.random() * text.length + 1)-1];
     //console.log('showMessage', text);
@@ -125,13 +131,18 @@ function hideMessage(timeout){
 }
 
 function initLive2d (){
-    $('.hide-button').fadeOut(0).on('click', () => {
+    $('.hide-button').fadeOut(0).on('click', function () {
         $('#landlord').css('display', 'none')
     })
-    $('#landlord').hover(() => {
+    $('#landlord').hover(function () {
         $('.hide-button').fadeIn(600)
-    }, () => {
+    }, function () {
         $('.hide-button').fadeOut(600)
+    })
+    $('#chat2landlord').keyup(function (e) {
+        if (e.keyCode === 13) {
+            showTuling($(this).val());
+        }
     })
 }
 initLive2d ();

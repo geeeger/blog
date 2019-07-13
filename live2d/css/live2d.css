@@ -271,3 +271,16 @@
         transform: translate(0, 0) rotate(0);
     }
 }
+
+.chat2landlord {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    background: rgba(255,0,0, .5);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.chat2landlord span {
+    color: #fff;
+}
