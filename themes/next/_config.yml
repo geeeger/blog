@@ -94,8 +94,8 @@ footer:
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
-  language:
+  post: true
+  language: deed.zh
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
