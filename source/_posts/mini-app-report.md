@@ -344,7 +344,7 @@ input，textarea，video，map，canvas，live-player等组件，非webComponent
 
 ### 其他开发坑
 
-+ {{}}不能执行方法，只能处理简单运算+-*/
++ 双大括号不能执行方法，只能处理简单运算+-*/
 	+ 由于小程序无管道实现（也就是time | filters 这类）,所以只能运用以下几种方式
 		+ 1.直接setData (大量循环时成本过高)
 		+ 2.设置getter （大量循环时经常访问，也不是很好）
