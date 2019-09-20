@@ -1,11 +1,3 @@
-<!--
- * @Description: 文章
- * @Author: geeeger
- * @Email: lipenghui@qie.tv
- * @Date: 2019-09-20 15:58:26
- * @LastEditors: geeeger
- * @LastEditTime: 2019-09-20 16:52:21
- -->
 ---
 title: laravel开发第一天
 date: 2019-09-20 16:00:00
