@@ -601,7 +601,7 @@ calendar:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: geeeger
   count: true
   lazyload: false
