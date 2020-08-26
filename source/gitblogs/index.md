@@ -71,7 +71,7 @@ timer = setInterval(function(){
                     var item = data[i]
                     var content = '<div style="margin:10px 5px;padding:5px;background:#f2f2f2;">'
                     +   '<h3>'
-                    +   '<a href="' + item.url + '">' + '[' + item.created_at + '] ' + item.title + '</a>'
+                    +   '<a href="' + item.html_url + '">' + '[' + item.created_at + '] ' + item.title + '</a>'
                     +   '</h3>'
                     +   '<section style="margin:10px;">' + marked(item.body) + '</section>'
                     +   '</ p>'
