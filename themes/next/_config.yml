@@ -159,6 +159,7 @@ baidu_push: false
 menu:
   home: / || home
   about: /about/ || user
+  gitblogs: /gitblogs/ || hashtag
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive

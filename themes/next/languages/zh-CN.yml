@@ -2,6 +2,7 @@
 title:
   archive: 归档
   category: 分类
+  gitblogs: 来自git的文章
   tag: 标签
   schedule: 日程表
 menu:
@@ -9,6 +10,7 @@ menu:
   archives: 归档
   categories: 分类
   tags: 标签
+  gitblogs: 来自git的文章
   about: 关于
   search: 搜索
   schedule: 日程表
