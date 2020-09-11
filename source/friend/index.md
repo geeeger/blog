@@ -3,6 +3,8 @@ title: 友链
 date: 2020-08-26 15:00:00
 ---
 
+**添加友链请前往[https://github.com/geeeger-pkgs/friend-link/issues](https://github.com/geeeger-pkgs/friend-link/issues)书写issue**
+
 <ul id="_Gblog"></ul>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/tomorrow-night.min.css">
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
