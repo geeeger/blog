@@ -6,6 +6,7 @@ title:
   818diary: 818日记
   tag: 标签
   schedule: 日程表
+  friend: 友链
 menu:
   home: 首页
   archives: 归档
@@ -13,6 +14,7 @@ menu:
   tags: 标签
   gitblogs: 来自git的文章
   818diary: 818日记
+  friend: 友链
   about: 关于
   search: 搜索
   schedule: 日程表
