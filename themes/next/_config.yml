@@ -160,6 +160,7 @@ menu:
   home: / || home
   about: /about/ || user
   gitblogs: /gitblogs/ || hashtag
+  818diary: /818/ || hashtag
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
